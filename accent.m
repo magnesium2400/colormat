@@ -1,0 +1,25 @@
+function map = accent(m)
+if nargin < 1
+   f = get(groot,'CurrentFigure');
+   if isempty(f)
+      m = size(get(groot,'DefaultFigureColormap'),1);
+   else
+      m = size(f.Colormap,1);
+   end
+end
+
+c = [
+	0.498039	0.788235	0.498039
+	0.745098	0.682353	0.831373
+	0.992157	0.752941	0.525490
+	1.000000	1.000000	0.600000
+	0.219608	0.423529	0.690196
+	0.941176	0.007843	0.498039
+	0.749020	0.356863	0.090196
+	0.400000	0.400000	0.400000
+
+    ];
+
+map = c(rem(0:m-1,size(c,1))+1,:);
+
+end
