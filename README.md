@@ -43,95 +43,92 @@ Custom colormap functionality in MATLAB
 - Also note that the `mapname(___,'Parent', h)` syntax does NOT apply the colormap to the axes/figure `h`. It only uses the properties of `h` to determine the output. The colormap must still be applied using the `colormap` function.
 
 ## Maps
-
-| Name | Source | Map |
-| :--: | :----: | :-: |
-| accent | colorbrewer | ![accent](./docs/images/accent.png) |
-| acton | crameri | ![acton](./docs/images/acton.png) |
-| bam | crameri | ![bam](./docs/images/bam.png) |
-| bamako | crameri | ![bamako](./docs/images/bamako.png) |
-| bamo | crameri | ![bamo](./docs/images/bamo.png) |
-| batlow | crameri | ![batlow](./docs/images/batlow.png) |
-| batlowk | crameri | ![batlowk](./docs/images/batlowk.png) |
-| batloww | crameri | ![batloww](./docs/images/batloww.png) |
-| berlin | crameri | ![berlin](./docs/images/berlin.png) |
-| bilbao | crameri | ![bilbao](./docs/images/bilbao.png) |
-| blues | colorbrewer | ![blues](./docs/images/blues.png) |
-| brbg | colorbrewer | ![brbg](./docs/images/brbg.png) |
-| broc | crameri | ![broc](./docs/images/broc.png) |
-| broco | crameri | ![broco](./docs/images/broco.png) |
-| buda | crameri | ![buda](./docs/images/buda.png) |
-| bugn | colorbrewer | ![bugn](./docs/images/bugn.png) |
-| bupu | colorbrewer | ![bupu](./docs/images/bupu.png) |
-| cividis | matplotlib | ![cividis](./docs/images/cividis.png) |
-| cork | crameri | ![cork](./docs/images/cork.png) |
-| corko | crameri | ![corko](./docs/images/corko.png) |
-| crest | seaborne | ![crest](./docs/images/crest.png) |
-| dark2 | colorbrewer | ![dark2](./docs/images/dark2.png) |
-| davos | crameri | ![davos](./docs/images/davos.png) |
-| devon | crameri | ![devon](./docs/images/devon.png) |
-| flare | seaborne | ![flare](./docs/images/flare.png) |
-| gnbu | colorbrewer | ![gnbu](./docs/images/gnbu.png) |
-| grayc | crameri | ![grayc](./docs/images/grayc.png) |
-| greens | colorbrewer | ![greens](./docs/images/greens.png) |
-| greys | colorbrewer | ![greys](./docs/images/greys.png) |
-| hawaii | crameri | ![hawaii](./docs/images/hawaii.png) |
-| icefire | seaborne | ![icefire](./docs/images/icefire.png) |
-| imola | crameri | ![imola](./docs/images/imola.png) |
-| inferno | matplotlib | ![inferno](./docs/images/inferno.png) |
-| lajolla | crameri | ![lajolla](./docs/images/lajolla.png) |
-| lapaz | crameri | ![lapaz](./docs/images/lapaz.png) |
-| lisbon | crameri | ![lisbon](./docs/images/lisbon.png) |
-| magma | matplotlib | ![magma](./docs/images/magma.png) |
-| mako | seaborne | ![mako](./docs/images/mako.png) |
-| nuuk | crameri | ![nuuk](./docs/images/nuuk.png) |
-| oranges | colorbrewer | ![oranges](./docs/images/oranges.png) |
-| orrd | colorbrewer | ![orrd](./docs/images/orrd.png) |
-| oslo | crameri | ![oslo](./docs/images/oslo.png) |
-| paired | colorbrewer | ![paired](./docs/images/paired.png) |
-| pastel1 | colorbrewer | ![pastel1](./docs/images/pastel1.png) |
-| pastel2 | colorbrewer | ![pastel2](./docs/images/pastel2.png) |
-| piyg | colorbrewer | ![piyg](./docs/images/piyg.png) |
-| plasma | matplotlib | ![plasma](./docs/images/plasma.png) |
-| prgn | colorbrewer | ![prgn](./docs/images/prgn.png) |
-| pubu | colorbrewer | ![pubu](./docs/images/pubu.png) |
-| pubugn | colorbrewer | ![pubugn](./docs/images/pubugn.png) |
-| puor | colorbrewer | ![puor](./docs/images/puor.png) |
-| purd | colorbrewer | ![purd](./docs/images/purd.png) |
-| purples | colorbrewer | ![purples](./docs/images/purples.png) |
-| rdbu | colorbrewer | ![rdbu](./docs/images/rdbu.png) |
-| rdgy | colorbrewer | ![rdgy](./docs/images/rdgy.png) |
-| rdpu | colorbrewer | ![rdpu](./docs/images/rdpu.png) |
-| rdylbu | colorbrewer | ![rdylbu](./docs/images/rdylbu.png) |
-| rdylgn | colorbrewer | ![rdylgn](./docs/images/rdylgn.png) |
-| reds | colorbrewer | ![reds](./docs/images/reds.png) |
-| rocket | seaborne | ![rocket](./docs/images/rocket.png) |
-| roma | crameri | ![roma](./docs/images/roma.png) |
-| romao | crameri | ![romao](./docs/images/romao.png) |
-| set1 | colorbrewer | ![set1](./docs/images/set1.png) |
-| set2 | colorbrewer | ![set2](./docs/images/set2.png) |
-| set3 | colorbrewer | ![set3](./docs/images/set3.png) |
-| spectral | colorbrewer | ![spectral](./docs/images/spectral.png) |
-| tab10 | matplotlib | ![tab10](./docs/images/tab10.png) |
-| tab20 | matplotlib | ![tab20](./docs/images/tab20.png) |
-| tab20b | matplotlib | ![tab20b](./docs/images/tab20b.png) |
-| tab20c | matplotlib | ![tab20c](./docs/images/tab20c.png) |
-| tofino | crameri | ![tofino](./docs/images/tofino.png) |
-| tokyo | crameri | ![tokyo](./docs/images/tokyo.png) |
-| turku | crameri | ![turku](./docs/images/turku.png) |
-| twilight | matplotlib | ![twilight](./docs/images/twilight.png) |
-| twilight_shifted | matplotlib | ![twilight_shifted](./docs/images/twilight_shifted.png) |
-| vanimo | crameri | ![vanimo](./docs/images/vanimo.png) |
-| vik | crameri | ![vik](./docs/images/vik.png) |
-| viko | crameri | ![viko](./docs/images/viko.png) |
-| viridis | matplotlib | ![viridis](./docs/images/viridis.png) |
-| vlag | seaborne | ![vlag](./docs/images/vlag.png) |
-| ylgn | colorbrewer | ![ylgn](./docs/images/ylgn.png) |
-| ylgnbu | colorbrewer | ![ylgnbu](./docs/images/ylgnbu.png) |
-| ylorbr | colorbrewer | ![ylorbr](./docs/images/ylorbr.png) |
-| ylorrd | colorbrewer | ![ylorrd](./docs/images/ylorrd.png) |
-
-
+| Name | Source | Type | Map |
+| :--: | :----: | :--: | :-: |
+| accent | colorbrewer | qualitative | ![accent](./docs/images/accent.png) |
+| acton | crameri | sequential | ![acton](./docs/images/acton.png) |
+| bam | crameri | diverging | ![bam](./docs/images/bam.png) |
+| bamako | crameri | sequential | ![bamako](./docs/images/bamako.png) |
+| bamo | crameri | cyclic | ![bamo](./docs/images/bamo.png) |
+| batlow | crameri | sequential | ![batlow](./docs/images/batlow.png) |
+| batlowk | crameri | sequential | ![batlowk](./docs/images/batlowk.png) |
+| batloww | crameri | sequential | ![batloww](./docs/images/batloww.png) |
+| berlin | crameri | diverging | ![berlin](./docs/images/berlin.png) |
+| bilbao | crameri | sequential | ![bilbao](./docs/images/bilbao.png) |
+| blues | colorbrewer | sequential | ![blues](./docs/images/blues.png) |
+| brbg | colorbrewer | diverging | ![brbg](./docs/images/brbg.png) |
+| broc | crameri | diverging | ![broc](./docs/images/broc.png) |
+| broco | crameri | cyclic | ![broco](./docs/images/broco.png) |
+| buda | crameri | sequential | ![buda](./docs/images/buda.png) |
+| bugn | colorbrewer | sequential | ![bugn](./docs/images/bugn.png) |
+| bupu | colorbrewer | sequential | ![bupu](./docs/images/bupu.png) |
+| cividis | matplotlib | sequential | ![cividis](./docs/images/cividis.png) |
+| cork | crameri | diverging | ![cork](./docs/images/cork.png) |
+| corko | crameri | cyclic | ![corko](./docs/images/corko.png) |
+| crest | seaborne | sequential | ![crest](./docs/images/crest.png) |
+| dark2 | colorbrewer | qualitative | ![dark2](./docs/images/dark2.png) |
+| davos | crameri | sequential | ![davos](./docs/images/davos.png) |
+| devon | crameri | sequential | ![devon](./docs/images/devon.png) |
+| flare | seaborne | sequential | ![flare](./docs/images/flare.png) |
+| gnbu | colorbrewer | sequential | ![gnbu](./docs/images/gnbu.png) |
+| grayc | crameri | sequential | ![grayc](./docs/images/grayc.png) |
+| greens | colorbrewer | sequential | ![greens](./docs/images/greens.png) |
+| greys | colorbrewer | sequential | ![greys](./docs/images/greys.png) |
+| hawaii | crameri | sequential | ![hawaii](./docs/images/hawaii.png) |
+| icefire | seaborne | diverging | ![icefire](./docs/images/icefire.png) |
+| imola | crameri | sequential | ![imola](./docs/images/imola.png) |
+| inferno | matplotlib | sequential | ![inferno](./docs/images/inferno.png) |
+| lajolla | crameri | sequential | ![lajolla](./docs/images/lajolla.png) |
+| lapaz | crameri | sequential | ![lapaz](./docs/images/lapaz.png) |
+| lisbon | crameri | diverging | ![lisbon](./docs/images/lisbon.png) |
+| magma | matplotlib | sequential | ![magma](./docs/images/magma.png) |
+| mako | seaborne | sequential | ![mako](./docs/images/mako.png) |
+| nuuk | crameri | sequential | ![nuuk](./docs/images/nuuk.png) |
+| oranges | colorbrewer | sequential | ![oranges](./docs/images/oranges.png) |
+| orrd | colorbrewer | sequential | ![orrd](./docs/images/orrd.png) |
+| oslo | crameri | sequential | ![oslo](./docs/images/oslo.png) |
+| paired | colorbrewer | qualitative | ![paired](./docs/images/paired.png) |
+| pastel1 | colorbrewer | qualitative | ![pastel1](./docs/images/pastel1.png) |
+| pastel2 | colorbrewer | qualitative | ![pastel2](./docs/images/pastel2.png) |
+| piyg | colorbrewer | diverging | ![piyg](./docs/images/piyg.png) |
+| plasma | matplotlib | sequential | ![plasma](./docs/images/plasma.png) |
+| prgn | colorbrewer | diverging | ![prgn](./docs/images/prgn.png) |
+| pubu | colorbrewer | sequential | ![pubu](./docs/images/pubu.png) |
+| pubugn | colorbrewer | sequential | ![pubugn](./docs/images/pubugn.png) |
+| puor | colorbrewer | diverging | ![puor](./docs/images/puor.png) |
+| purd | colorbrewer | sequential | ![purd](./docs/images/purd.png) |
+| purples | colorbrewer | sequential | ![purples](./docs/images/purples.png) |
+| rdbu | colorbrewer | diverging | ![rdbu](./docs/images/rdbu.png) |
+| rdgy | colorbrewer | diverging | ![rdgy](./docs/images/rdgy.png) |
+| rdpu | colorbrewer | sequential | ![rdpu](./docs/images/rdpu.png) |
+| rdylbu | colorbrewer | diverging | ![rdylbu](./docs/images/rdylbu.png) |
+| rdylgn | colorbrewer | diverging | ![rdylgn](./docs/images/rdylgn.png) |
+| reds | colorbrewer | sequential | ![reds](./docs/images/reds.png) |
+| rocket | seaborne | sequential | ![rocket](./docs/images/rocket.png) |
+| roma | crameri | diverging | ![roma](./docs/images/roma.png) |
+| romao | crameri | cyclic | ![romao](./docs/images/romao.png) |
+| set1 | colorbrewer | qualitative | ![set1](./docs/images/set1.png) |
+| set2 | colorbrewer | qualitative | ![set2](./docs/images/set2.png) |
+| set3 | colorbrewer | qualitative | ![set3](./docs/images/set3.png) |
+| spectral | colorbrewer | diverging | ![spectral](./docs/images/spectral.png) |
+| tab10 | matplotlib | qualitative | ![tab10](./docs/images/tab10.png) |
+| tab20 | matplotlib | qualitative | ![tab20](./docs/images/tab20.png) |
+| tab20b | matplotlib | qualitative | ![tab20b](./docs/images/tab20b.png) |
+| tab20c | matplotlib | qualitative | ![tab20c](./docs/images/tab20c.png) |
+| tofino | crameri | diverging | ![tofino](./docs/images/tofino.png) |
+| tokyo | crameri | sequential | ![tokyo](./docs/images/tokyo.png) |
+| turku | crameri | sequential | ![turku](./docs/images/turku.png) |
+| twilight | matplotlib | cyclic | ![twilight](./docs/images/twilight.png) |
+| twilight_shifted | matplotlib | cyclic | ![twilight_shifted](./docs/images/twilight_shifted.png) |
+| vanimo | crameri | diverging | ![vanimo](./docs/images/vanimo.png) |
+| vik | crameri | diverging | ![vik](./docs/images/vik.png) |
+| viko | crameri | cyclic | ![viko](./docs/images/viko.png) |
+| viridis | matplotlib | sequential | ![viridis](./docs/images/viridis.png) |
+| vlag | seaborne | diverging | ![vlag](./docs/images/vlag.png) |
+| ylgn | colorbrewer | sequential | ![ylgn](./docs/images/ylgn.png) |
+| ylgnbu | colorbrewer | sequential | ![ylgnbu](./docs/images/ylgnbu.png) |
+| ylorbr | colorbrewer | sequential | ![ylorbr](./docs/images/ylorbr.png) |
+| ylorrd | colorbrewer | sequential | ![ylorrd](./docs/images/ylorrd.png) |
 
 
 
